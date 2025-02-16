@@ -83,3 +83,13 @@
     color:white;
     font-weight: bold;
 }
+
+.save-button{
+    background-color: white;
+    color:rgb(10,102,194);
+    border-color: rgb(10, 102, 194);
+    width:85px;
+    height:40px;
+    border-radius: 15px;
+    font-size: 15px;
+}
