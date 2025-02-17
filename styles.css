@@ -26,6 +26,7 @@
     height:36px;
     border-radius:2px;
     cursor:pointer;
+    transition: background-color 2s;
 }
 .join-button:hover{
     background-color: skyblue;
@@ -41,6 +42,11 @@
     font-weight: bold;
     font-size:15px;
     margin-left: 15px;
+    transition: 0.15s;
+}
+.tweet-button.hover{
+    box-shadow: rgba(0,0,0,0.15);
+
 }
 .request-button{
     background-color: black;
@@ -48,6 +54,9 @@
     width:100px;
     height:35px;
     border: none;
+}
+.request-button:hover{
+    opacity: 0.8;
 }
 
 .cart-button{
@@ -58,6 +67,9 @@
     border:none;
     font-size: medium;
     margin-left: 15px;
+}
+.cart-button:hover{
+    opacity:1.2;
 }
 
 .signup-button{

@@ -8,6 +8,9 @@
     border-radius: 8px;
     border: none;
 }
+.cart-button:hover{
+    opacity:0.8;
+}
 .buy-button{
     background-color: rgb(255,164,28);
     width:80px;
@@ -15,4 +18,10 @@
     border-radius: 8px;
     border: none;
     margin-left:15px;
+}
+.buy-button:hover{
+    opacity:0.8;
+}
+.link:hover{
+    color:orange;
 }
