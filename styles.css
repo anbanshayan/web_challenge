@@ -7,7 +7,14 @@
     color:white;
     cursor: pointer;
     margin-right:18px;
-
+    transition: opacity 1s;
+}
+.subscribe-button:hover{  /*hover and active are pseudo classes */
+    background-color: green;
+    opacity: 0.6; /*how to see through html element */
+}
+.subscribe-button:active{
+    background-color: purple;
 }
 
 .join-button{
@@ -19,6 +26,10 @@
     height:36px;
     border-radius:2px;
     cursor:pointer;
+}
+.join-button:hover{
+    background-color: skyblue;
+    color: white;
 }
 .tweet-button{
     background-color: rgb(45, 149, 184);
