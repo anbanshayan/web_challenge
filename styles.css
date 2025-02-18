@@ -2,11 +2,14 @@
     background-color: rgb(255,127,0);
     border:none;
     height:30px;
-    width:80px;
+    width:120px;
     border-radius: 25px;
     color:white;
     cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-right:18px;
+    margin-left: 10px; /*Spacing on outside of an elemenr */
     transition: opacity 1s;
 }
 .subscribe-button:hover{  /*hover and active are pseudo classes */
@@ -126,3 +129,6 @@
     font-size: 15px;
     margin-left: 15px;
 }
+/*CSS Box Model
+    -how much space an element takes up
+    - how far it is away from other elemnts */
