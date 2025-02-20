@@ -21,7 +21,7 @@
 }
 
 .tweet-button{
-    background-color:blue;
+    background-color:#1DA1F2;
     opacity:0.8;
     border:none;
     border-radius: 8px;
@@ -29,4 +29,6 @@
     padding-right: 12px;
     padding-top: 12px;
     padding-bottom: 12px;
+    color:white;
+    font-weight: bold;
 }
