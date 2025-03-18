@@ -9,4 +9,6 @@
 }
 .day-sale{
     font-style: italic;
+    border: 2px;
+    border-style: dashed;
 }
